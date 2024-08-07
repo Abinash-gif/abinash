@@ -1,0 +1,68 @@
+body {
+    background: url(background\ for\ form\ task.webp) fixed no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 30px;
+    margin-top: 7%;
+
+}
+
+.type1 {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid grey;
+    width: 600px;
+    min-height: 15px;
+    padding: 5px;
+}
+
+.type2 {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid grey;
+    min-height: 50px;
+    width: 600px;
+    padding: 5px;
+}
+
+.button {
+    color: white;
+    background: linear-gradient(hotpink, yellow);
+    padding: 10px;  
+    align-self: center;
+    width: 200px;
+    margin-left: 215px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+label {
+    color: grey;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.type1:focus {
+    border-bottom: 2px solid rgb(192, 29, 29);
+}
+
+.type2:focus {
+    border-bottom: 2px solid rgb(192, 29, 29);
+}
